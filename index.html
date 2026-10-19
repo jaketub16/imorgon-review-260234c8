@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="robots" content="noindex,nofollow">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
 <title>Imorgon Medical · Your First 16 Weeks & What's Next · Aletto</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -105,7 +105,7 @@ blockquote cite{display:block;margin-top:20px;font-style:normal;font-family:var(
 
 /* bars */
 .bars{display:flex;flex-direction:column;gap:18px;margin-top:20px}
-.bar-row{display:grid;grid-template-columns:170px 1fr 120px;gap:16px;align-items:center;font-size:14px}
+.bar-row{display:grid;grid-template-columns:180px 1fr 150px;gap:16px;align-items:center;font-size:14px}
 .bar-row .t{color:var(--ink2)}
 .bar-row .v{font-family:var(--mono);font-size:13px;color:var(--ink);text-align:right}
 .track{height:26px;background:#F4F3EF;border-radius:4px;overflow:hidden;display:flex}
@@ -250,6 +250,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .chip b{font-weight:500;color:var(--ink)}
 .rlabel{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-bottom:12px}
 .range .seg.rec{background:#9FC7DF}
+.dots{display:grid;grid-template-columns:repeat(10,1fr);gap:6px;margin-top:16px}
+.dots span{height:30px;border-radius:4px}.d-in{background:#2F3437}.d-out{background:#9FC7DF}
 /* responsive */
 @media (max-width:900px){
   section{padding:80px 0}
@@ -278,6 +280,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .c2{grid-column:span 1}.c3,.c4,.c6{grid-column:span 2}
   .card{padding:20px}
   .bento .m1{grid-column:span 1}
+  .bento .mw{grid-column:span 2}
   .card .num,.bento.four .num{font-size:34px!important}
   .worth .num{font-size:56px}
   .bar-row{grid-template-columns:1fr auto;gap:6px 12px}
@@ -371,9 +374,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <div>
         <dl class="dl rv">
           <div class="row"><dt>Signed</dt><dd>March 24, 2026</dd></div>
-          <div class="row"><dt>Ads live</dt><dd>May 15, 2026 (after the Meta ad-account review)</dd></div>
-          <div class="row"><dt>Term</dt><dd>16 weeks of live campaigns</dd></div>
-          <div class="row"><dt>Planned end of flight</dt><dd>Early September 2026 (16 weeks from launch = September 4; our records show September 9)</dd></div>
+          <div class="row"><dt>Kickoff (engagement start)</dt><dd>March 30, 2026</dd></div>
+          <div class="row"><dt>Term</dt><dd>16 weeks from kickoff: March 30 to July 20, 2026</dd></div>
+          <div class="row"><dt>Ads live</dt><dd>May 15, 2026 (after research, funnel build and the Meta ad-account review)</dd></div>
           <div class="row"><dt>Management fee</dt><dd>$13,440, prepaid (split pay)</dd></div>
           <div class="row"><dt>Media</dt><dd>About $100/day, paid by Imorgon directly to Meta</dd></div>
           <div class="row"><dt>Target</dt><dd>20 qualified booked calls</dd></div>
@@ -384,19 +387,19 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
     <div class="timeline rv">
       <div class="legend">
-        <span><i style="background:#2F3437"></i>16-week paid flight</span>
+        <span><i style="background:#D9D8D4"></i>16 weeks: research and build</span>
+        <span><i style="background:#2F3437"></i>16 weeks: live ads</span>
         <span><i style="background:#9FC7DF"></i>Extra weeks at no charge</span>
-        <span><i style="background:#D9D8D4"></i>Setup</span>
       </div>
       <div class="tl-bar" aria-hidden="true">
-        <span style="width:25%;background:#D9D8D4"></span>
-        <span style="width:53%;background:#2F3437"></span>
-        <span style="width:22%;background:#9FC7DF"></span>
+        <span style="width:23%;background:#D9D8D4"></span>
+        <span style="width:33.5%;background:#2F3437"></span>
+        <span style="width:43.5%;background:#9FC7DF"></span>
       </div>
       <div class="tl-labels">
-        <div style="left:0"><b>Mar 23–24</b>Scope call · signed</div>
-        <div style="left:25%"><b>May 15</b>Ads live</div>
-        <div style="left:78%"><b>Early Sep</b>End of 16-week flight</div>
+        <div style="left:0"><b>Mar 24 · Mar 30</b>Signed · kickoff</div>
+        <div style="left:23%"><b>May 15</b>Ads live</div>
+        <div style="left:56.5%"><b>Jul 20</b>End of the 16 weeks</div>
         <div style="left:100%"><b>Oct 16</b>Ads paused</div>
       </div>
     </div>
@@ -406,34 +409,23 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <!-- 03 -->
 <section id="results">
   <div class="wrap">
-    <span class="eyebrow">03 · What the first 16 weeks produced</span>
-    <h2>Sixteen weekly reports. <em>In your numbers.</em></h2>
-    <p class="lead">From launch on May 15 to September 3.</p>
+    <span class="eyebrow">03 · What the 16 weeks produced</span>
+    <h2>March 30 to July 20. <em>In your numbers.</em></h2>
+    <p class="lead">The first six and a half weeks went into research, briefs, the funnel build and the Meta ad-account review. Ads went live on May 15, so the paid term held about nine and a half weeks of live campaigns.</p>
 
     <div class="bento">
-      <div class="card c2 rv"><div class="num">$15,085</div><div class="lbl">Media spent</div></div>
-      <div class="card c2 rv"><div class="num">65</div><div class="lbl">Leads</div></div>
-      <div class="card c2 rv"><div class="num">57</div><div class="lbl">MQLs</div><div class="note">88% of leads</div></div>
-      <div class="card c3 m1 rv"><div class="num">17</div><div class="lbl">Booked calls</div><div class="note">1 no-show · 94% show rate</div></div>
-      <div class="card c3 rv" style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
-        <div><div class="num">$232</div><div class="lbl">Cost per lead</div></div>
-        <div><div class="num">$887</div><div class="lbl">Cost per booked call</div></div>
-      </div>
-      <div class="card c4 rv">
-        <span class="tag g">Best stretch</span>
-        <h3 style="margin-top:16px">July 17 to 30</h3>
-        <p>The “12-Week Roadmap” free report and fresh creative produced <b style="color:var(--ink)">25 leads and 4 booked calls at $62 to $99 per lead.</b></p>
-      </div>
-      <div class="card c2 rv">
-        <span class="tag y">The hard part</span>
-        <div class="ctr" aria-label="Click-through fell from about 1.9% to under 1%">
-          <div><small>~1.9%</small><span style="height:95%;background:#2F3437"></span></div>
-          <div><small>&lt;1%</small><span style="height:46%;background:#D9D8D4"></span></div>
-        </div>
-        <div class="ctr-lbl"><div>Before</div><div>From late July</div></div>
+      <div class="card c2 rv"><div class="num">$6,158</div><div class="lbl">Media spent</div></div>
+      <div class="card c2 rv"><div class="num">28</div><div class="lbl">Leads in your CRM</div><div class="note">27 counted by Meta</div></div>
+      <div class="card c2 rv"><div class="num">26</div><div class="lbl">MQLs</div><div class="note">93% of leads</div></div>
+      <div class="card c2 rv"><div class="num">6</div><div class="lbl">Booked calls</div></div>
+      <div class="card c2 mw rv"><div class="num">3</div><div class="lbl">A-tier decision-makers</div></div>
+      <div class="card c2 mw rv" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div><div class="num" style="font-size:40px">$220</div><div class="lbl">Per lead</div></div>
+        <div><div class="num" style="font-size:40px">$1,026</div><div class="lbl">Per booked call</div></div>
       </div>
       <div class="card c6 rv" style="background:var(--card)">
-        <p>From late July, clicks got more expensive as the same small audience saw the ads repeatedly. Click-through fell from about 1.9% to under 1%. <span class="muted">We responded with new pages, new creative, a retargeting campaign and a cheaper daily budget.</span></p>
+        <span class="tag g">Where it stood on July 20</span>
+        <p style="margin-top:14px;color:var(--ink)">By the end of the term the system was working: the “12-Week Roadmap” free report had become the clear winner, and its best stretch was just starting.</p>
       </div>
     </div>
   </div>
@@ -445,50 +437,69 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <div class="free-head">
       <div>
         <span class="eyebrow">04 · We kept going after the 16 weeks, at no charge</span>
-        <h2>Six more weeks. <em>Full service. No fee.</em></h2>
-        <p class="lead">The 16-week flight ended in early September. We did not stop. From <b style="color:var(--ink)">September 5 to October 16, 2026, Aletto ran your campaigns and full service for six more weeks without a fee.</b> That is about 1.4 months of service.</p>
+        <h2>Twelve more weeks. <em>Full service. No fee.</em></h2>
+        <p class="lead">The 16-week term ended on July 20. We did not stop. From <b style="color:var(--ink)">July 21 to October 16, 2026, Aletto ran your campaigns and full service for 88 more days, about 12.6 weeks, without a fee.</b> That is about 2.9 months of service.</p>
       </div>
       <div class="worth rv">
-        <div class="num">~$4,700</div>
+        <div class="num">~$9,900</div>
         <div class="lbl">Value at the monthly rate below</div>
+      </div>
+    </div>
+
+    <div class="bento" style="margin-top:56px">
+      <div class="card c4 rv">
+        <span class="tag g">Best stretch</span>
+        <h3 style="margin-top:16px">July 17 to 30</h3>
+        <p>We carried the best stretch of the campaign past the end of the term. The “12-Week Roadmap” free report and fresh creative produced <b style="color:var(--ink)">25 leads and 4 booked calls at $62 to $99 per lead.</b></p>
+      </div>
+      <div class="card c2 rv">
+        <span class="tag y">The hard part</span>
+        <div class="ctr" aria-label="Click-through fell from about 1.9% to under 1%">
+          <div><small>~1.9%</small><span style="height:95%;background:#2F3437"></span></div>
+          <div><small>&lt;1%</small><span style="height:46%;background:#D9D8D4"></span></div>
+        </div>
+        <div class="ctr-lbl"><div>Before</div><div>From late July</div></div>
+      </div>
+      <div class="card c6 rv" style="background:var(--card)">
+        <p>From late July, clicks got more expensive as the same small audience saw the ads repeatedly. Click-through fell from about 1.9% to under 1%. <span class="muted">We answered with new pages, new creative, a retargeting campaign and a cheaper daily budget.</span></p>
       </div>
     </div>
 
     <div class="split" style="margin-top:64px">
       <div class="side"><div class="stick">
-        <h3>In those extra weeks we:</h3>
+        <h3>In those extra weeks we also:</h3>
       </div></div>
       <ul class="ticks rv">
-        <li>Kept the ads live every day and refreshed the creative.</li>
+        <li>Launched a direct-booking video campaign in August, then new video and free-report pages with 15 new ads on August 24.</li>
+        <li>Reworked the message around “do more studies, work less”.</li>
         <li>Turned your approved White Paper V3 into a designed lead magnet.</li>
         <li>Launched a new problem-focused campaign on September 27 and a new free-toolkit offer.</li>
-        <li>Held four more weekly strategy calls (September 9, 16 and 30, October 7).</li>
+        <li>Kept the weekly strategy calls going, including August 12, 19 and 26, September 9, 16 and 30, and October 7.</li>
       </ul>
     </div>
 
     <div class="split" style="margin-top:64px">
       <div class="side"><div class="stick">
         <h3>What the extra weeks produced</h3>
-        <p class="muted small">September 4 to October 15</p>
+        <p class="muted small">July 21 to October 16</p>
       </div></div>
       <div>
         <div class="bento four">
-          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">$5,409</div><div class="lbl">Media spent</div><div class="note">Imorgon's Meta account</div></div>
-          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">19</div><div class="lbl">Leads</div></div>
-          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">15</div><div class="lbl">MQLs</div></div>
-          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">3</div><div class="lbl">Booked calls</div></div>
+          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">$14,389</div><div class="lbl">Media spent</div><div class="note">Imorgon's Meta account</div></div>
+          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">58</div><div class="lbl">Leads in your CRM</div><div class="note">53 counted by Meta</div></div>
+          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">46</div><div class="lbl">MQLs</div></div>
+          <div class="card rv" style="background:var(--card)"><div class="num" style="font-size:40px">12</div><div class="lbl">Booked calls</div></div>
         </div>
         <div class="card rv" style="margin-top:16px">
           <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap">
-            <span class="eyebrow">Booked calls vs. original target</span>
-            <span class="mono small" style="color:var(--ink)">20 / 20</span>
+            <span class="eyebrow">Verified A-tier decision-makers, by when they opted in</span>
+            <span class="mono small" style="color:var(--ink)">7 of 10 in the free weeks</span>
           </div>
-          <div class="track" style="margin-top:16px;height:30px;gap:3px;background:transparent" aria-label="17 calls in the first 16 weeks plus 3 in the extra weeks equals 20, the target">
-            <span style="width:85%;background:#2F3437;border-radius:4px"></span>
-            <span style="width:15%;background:#9FC7DF;border-radius:4px"></span>
+          <div class="dots" aria-label="3 within the 16 weeks, 7 in the extra weeks">
+            <span class="d-in"></span><span class="d-in"></span><span class="d-in"></span><span class="d-out"></span><span class="d-out"></span><span class="d-out"></span><span class="d-out"></span><span class="d-out"></span><span class="d-out"></span><span class="d-out"></span>
           </div>
-          <div class="legend" style="margin-top:12px"><span><i style="background:#2F3437"></i>17 · first 16 weeks</span><span><i style="background:#9FC7DF"></i>3 · extra weeks</span></div>
-          <p style="margin-top:18px">Those 3 calls brought the total to <b style="color:var(--ink)">20 booked calls</b>, the number in our original scope. Every lead in the week of October 9 to 15 came from a radiology center, imaging center or radiology department.</p>
+          <div class="legend" style="margin-top:12px"><span><i style="background:#2F3437"></i>3 · within the 16 weeks</span><span><i style="background:#9FC7DF"></i>7 · extra weeks</span></div>
+          <p style="margin-top:18px">Two thirds of the leads and booked calls, and 7 of the 10 verified decision-makers, came in the weeks we ran at no charge. By October 16 the Ad Dashboard counted <b style="color:var(--ink)">20 booked calls</b>, the number in our original scope. Every lead in the week of October 9 to 15 came from a radiology center, imaging center or radiology department.</p>
         </div>
         <div class="callout soft"><p class="muted">We paused the ads on October 16 until a paid arrangement is in place. We were glad to carry the campaign this far. To keep it running, we need to agree on next steps.</p></div>
       </div>
@@ -512,16 +523,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
       <div class="card c6 rv pre" id="phaseChart">
         <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:baseline">
-          <h3 style="margin:0">Where the totals came from</h3>
-          <div class="legend"><span><i style="background:#2F3437"></i>First 16 weeks</span><span><i style="background:#9FC7DF"></i>Extra weeks, no fee</span></div>
+          <h3 style="margin:0">Where the results came from</h3>
+          <div class="legend"><span><i style="background:#2F3437"></i>Within the 16 weeks</span><span><i style="background:#9FC7DF"></i>Extra weeks, no fee</span></div>
         </div>
         <div class="bars">
-          <div class="bar-row"><span class="t">Media spent</span><div class="track"><span class="fill-a" style="width:73.6%"></span><span class="fill-b" style="width:26.4%"></span></div><span class="v">$20,494</span></div>
-          <div class="bar-row"><span class="t">Leads</span><div class="track"><span class="fill-a" style="width:77.4%"></span><span class="fill-b" style="width:22.6%"></span></div><span class="v">65 + 19 = 84</span></div>
-          <div class="bar-row"><span class="t">MQLs</span><div class="track"><span class="fill-a" style="width:79.2%"></span><span class="fill-b" style="width:20.8%"></span></div><span class="v">57 + 15 = 72</span></div>
-          <div class="bar-row"><span class="t">Booked calls</span><div class="track"><span class="fill-a" style="width:85%"></span><span class="fill-b" style="width:15%"></span></div><span class="v">17 + 3 = 20</span></div>
+          <div class="bar-row"><span class="t">Media spent</span><div class="track"><span class="fill-a" style="width:30%"></span><span class="fill-b" style="width:70%"></span></div><span class="v">$6,158 + $14,389</span></div>
+          <div class="bar-row"><span class="t">Leads in your CRM</span><div class="track"><span class="fill-a" style="width:32.6%"></span><span class="fill-b" style="width:67.4%"></span></div><span class="v">28 + 58 = 86</span></div>
+          <div class="bar-row"><span class="t">MQLs</span><div class="track"><span class="fill-a" style="width:36.1%"></span><span class="fill-b" style="width:63.9%"></span></div><span class="v">26 + 46 = 72</span></div>
+          <div class="bar-row"><span class="t">Booked calls (CRM)</span><div class="track"><span class="fill-a" style="width:33.3%"></span><span class="fill-b" style="width:66.7%"></span></div><span class="v">6 + 12 = 18</span></div>
+          <div class="bar-row"><span class="t">A-tier decision-makers</span><div class="track"><span class="fill-a" style="width:30%"></span><span class="fill-b" style="width:70%"></span></div><span class="v">3 + 7 = 10</span></div>
         </div>
-        <p class="small muted" style="margin-top:18px">Each bar shows the share of the total from each period.</p>
+        <p class="small muted" style="margin-top:18px">Split by date from your Meta account and CRM (via Windsor.ai), so totals differ slightly from the Ad Dashboard figures above.</p>
       </div>
     </div>
 
@@ -750,8 +762,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
     <span class="eyebrow" style="display:block;margin-top:80px">Appendix B · Sources</span>
     <ul class="sources" style="margin-top:14px">
-      <li><b style="color:var(--ink)">Original scope:</b> Fathom scope call, March 23, 2026 (<a href="https://fathom.video/calls/608589140?timestamp=429">07:09</a>: $13.4K prepaid fee, 20 qualified calls, about $100/day media over about four months). Aletto client record: signed March 24, launched May 15, end of flight September 9, $13,440 collected.</li>
-      <li><b style="color:var(--ink)">Results:</b> Aletto Ad Dashboard, 22 weekly reports, May 15 to October 15, 2026. Meta ad account “Imorgon Medical Ads Manager” via Windsor.ai (first spend May 15, last spend October 16). GoHighLevel sub-account “Imorgon Medical” via Windsor.ai, pulled October 19, 2026.</li>
+      <li><b style="color:var(--ink)">Original scope:</b> Fathom scope call, March 23, 2026 (<a href="https://fathom.video/calls/608589140?timestamp=429">07:09</a>: $13.4K prepaid fee, 20 qualified calls, about $100/day media over about four months). Aletto client record: signed March 24, launched May 15, $13,440 collected. Kickoff call: Fathom, March 30, 2026.</li>
+      <li><b style="color:var(--ink)">Results:</b> Aletto Ad Dashboard, 22 weekly reports, May 15 to October 15, 2026. Meta ad account “Imorgon Medical Ads Manager” via Windsor.ai (first spend May 15, last spend October 16). GoHighLevel sub-account “Imorgon Medical” via Windsor.ai, pulled October 19, 2026. The split between the 16 weeks and the extra weeks uses daily Meta spend and leads, CRM contact dates and the date each Sales-pipeline booking was created, so those figures differ slightly from the Ad Dashboard totals.</li>
       <li><b style="color:var(--ink)">Deal value:</b> Andy Milkowski, Fathom call with Jake Roper, August 12, 2026.</li>
       <li><b style="color:var(--ink)">Lead verification:</b> organisation websites, LinkedIn, NPPES NPI registry, state business filings and hospital bed data (MHCC, CHIA, hospital fact sheets), checked October 19, 2026. Source URL per contact in the lead file.</li>
       <li><b style="color:var(--ink)">Ads paused:</b> Aletto email to Andy, October 16, 2026.</li>
